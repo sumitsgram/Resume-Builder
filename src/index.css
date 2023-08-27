@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding:0;
+}
+main{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-shadow: 0 0 5px black;
+        width:100%;
+        height: 70px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: azure;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:Link{
+    margin-left: 5rem;
+    margin-right: 1rem;
+    background-color: azure;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+h2{
+    color: brown;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+img{
+    border-radius: 5%;
+    width:50%;
+    margin-left:25%;
+}
+
+.app{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 5px solid  rgb(169, 169, 242) ;
+    border-radius: 5%;
+    background-image:url(https://resumegenius.com/wp-content/uploads/picture-photo-resume-template-black.png) ;
+    background-size: 250px 300px;
+}
+
+.app1{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 5px solid  rgb(169, 169, 242) ;
+    border-radius: 5%;
+    background-image: url( https://marketplace.canva.com/EAFRuCp3DcY/1/0/1131w/canva-black-white-minimalist-cv-resume-f5JNR-K5jjw.jpg);
+    background-size: 250px 300px;
+   
+}
+.app2{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 5px solid  rgb(169, 169, 242) ;
+    border-radius: 5%;
+    background-image: url( https://resumegenius.com/wp-content/uploads/Clean-Modern-Resume-Skin-Yellow.png);
+    background-size: 250px 300px;
+   
+}
+.app3{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border: 5px solid  rgb(169, 169, 242) ;
+    border-radius: 5%;
+    background-image: url(https://resumecompanion.com/wp-content/uploads/2019/08/Stylish-Resume-Template-Imperial-Gold-280x396.png);
+    background-size: 250px 300px;
+}
+
+.dummy{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+#Button{
+    margin-top:10%;
+    margin-left:40%;
+    font-weight: bold;
+    width: 100px;
+    height:2rem;
+    border-radius: 5px;
+    background-color: rgb(169, 169, 242);
+    border-style: none;
 }
