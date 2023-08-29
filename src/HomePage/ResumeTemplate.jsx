@@ -25,7 +25,7 @@ function ResumeTemplate() {
       <br/>
       <br/>
       <br/>
-    <Link to="/dummy">Use Tempate</Link>
+    <Link to="/myresume">Use Tempate</Link>
     </div>
     <div className='app2'>
       <br/>
@@ -34,7 +34,7 @@ function ResumeTemplate() {
       <br/>
       <br/>
       <br/>
-    <Link to="/dummy">Use Tempate</Link>
+    <Link to="/myresume">Use Tempate</Link>
     </div>
     <div className='app3'>
       <br/>
@@ -43,7 +43,7 @@ function ResumeTemplate() {
       <br/>
       <br/>
       <br/>
-    <Link to="/dummy">Use Tempate</Link>
+    <Link to="/myresume">Use Tempate</Link>
     </div>
     </div>
   )
